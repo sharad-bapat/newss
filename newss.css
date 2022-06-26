@@ -1,0 +1,57 @@
+.newsItems img {
+    padding: 5px;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover !important;
+}
+
+.newslink {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.newslink:hover, .newslink:active {
+    color: #d63384;
+}
+.scroll{
+    max-height: 250px !important;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #d63384 #fff;
+}
+
+.smaller {
+    font-size: 0.8em;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    color: #000;
+    overflow-y: scroll !important;
+  }
+  .wpContent {
+    max-width: 900px !important;   
+    cursor: default !important;
+    position: relative !important;
+    border: 1px solid !important;
+    margin: auto !important;
+    background-color:#fff !important;
+    color: #000 !important;
+
+}
+
+#wpContent img{
+    object-fit: cover;
+    max-width: 100%;
+    position: relative;
+}
+ 
